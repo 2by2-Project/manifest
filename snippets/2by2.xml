@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="2by2"
+          fetch="https://github.com/2by2-Project"
+          revision="refs/heads/fifteen-qpr1" />
+
+  <remote name="2by2-gitlab"
+          fetch="https://gitlab.com/2by2-Project"
+          revision="refs/heads/fifteen" />
+
+  <!-- 2by2 Project -->
+  <project path="vendor/2by2" name="vendor_2by2" remote="2by2" />
+  <project path="packages/apps/2byTricks" name="packages_apps_2byTricks" remote="2by2" />
+
+  <!-- Extra apps -->
+  <project path="vendor/2by2-prebuilt-apps" name="vendor_2by2-prebuilt-apps" remote="2by2-gitlab" />
+
+  <!-- Keys -->
+  <project path="vendor/2by2-example-keys" name="vendor_2by2-example-keys" remote="2by2" />
+
+  <!-- OTA -->
+  <!--<project path="vendor/2by2-ota" name="vendor_2by2-ota" remote="2by2" revision="main" />-->
+
+</manifest>
