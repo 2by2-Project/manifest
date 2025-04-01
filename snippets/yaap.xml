@@ -45,7 +45,9 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
-  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
+  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android15-qpr2" clone-depth="1" >
+    <linkfile src="os_pickup.bp" dest="prebuilts/calyx/chromium/Android.bp" />
+  </project>
   <project path="external/dtc" name="external_dtc" remote="yaap" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
