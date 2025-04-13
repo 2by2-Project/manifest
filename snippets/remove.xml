@@ -139,6 +139,7 @@
   <remove-project name="platform/system/media" />
   <remove-project name="platform/system/memory/libmeminfo" />
   <remove-project name="platform/system/memory/lmkd" />
+  <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />
