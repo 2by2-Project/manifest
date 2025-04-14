@@ -45,7 +45,7 @@
 
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
-  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="staging/android15" clone-depth="1" />
+  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
   <project path="external/dtc" name="external_dtc" remote="yaap" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="yaap" />
   <project path="external/erofs-utils" name="external_erofs-utils" remote="yaap" />
@@ -160,7 +160,7 @@
   <project path="packages/apps/Panic" name="CalyxOS/platform_packages_apps_Panic" remote="github" revision="android14" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/RepainterServicePriv" name="kdrag0n/android_packages_apps_RepainterServicePriv" remote="github" revision="main" />
-  <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="staging/android15" />
+  <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android15-qpr2" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
   <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
@@ -190,7 +190,7 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="staging/android15" clone-depth="1" />
+  <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
   <project path="prebuilts/openeuicc-deps" name="prebuilts_openeuicc-deps" remote="yaap" />
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="yaap" />
 
