@@ -194,6 +194,7 @@
 
   <!-- Prebuilts -->
   <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
+  <project path="prebuilts/calyx/chromium/x64" name="CalyxOS/lfs_prebuilts_calyx_chromium_x64" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
   <project path="prebuilts/openeuicc-deps" name="prebuilts_openeuicc-deps" remote="yaap" />
   <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="yaap" />
 
