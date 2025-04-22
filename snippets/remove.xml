@@ -128,6 +128,7 @@
   <remove-project name="platform/packages/providers/ContactsProvider" />
   <remove-project name="platform/packages/providers/MediaProvider" />
   <remove-project name="platform/packages/providers/TelephonyProvider" />
+  <remove-project name="platform/packages/services/BuiltInPrintService" />
   <remove-project name="platform/packages/services/DeviceAsWebcam" />
   <remove-project name="platform/packages/services/Iwlan" />
   <remove-project name="platform/packages/services/Telecomm" />
