@@ -70,7 +70,6 @@
   <project path="external/tensorflow" name="external_tensorflow" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/vixl" name="external_vixl" remote="yaap" />
-  <project path="external/zlib" name="external_zlib-ng" remote="yaap" />
   <project path="external/zstd" name="external_zstd" remote="yaap" />
 
   <!-- Frameworks -->
