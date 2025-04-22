@@ -68,7 +68,6 @@
   <project path="external/setupcompat" name="external_setupcompat" remote="yaap" />
   <project path="external/skia" name="external_skia" remote="yaap" />
   <project path="external/sqlite" name="external_sqlite" remote="yaap" />
-  <project path="external/svox" name="external_svox" remote="yaap" />
   <project path="external/tensorflow" name="external_tensorflow" remote="yaap" />
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/vixl" name="external_vixl" remote="yaap" />
