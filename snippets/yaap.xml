@@ -54,6 +54,7 @@
   <project path="external/exfatprogs" name="external_exfatprogs" remote="yaap" />
   <project path="external/f2fs-tools" name="external_f2fs-tools" remote="yaap" />
   <project path="external/freetype" name="external_freetype" remote="yaap" />
+  <project path="external/htop" name="external_htop" remote="yaap" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
   <project path="external/libcxx" name="external_libcxx" remote="yaap" />
   <project path="external/libdav1d" name="external_libdav1d" remote="yaap" />
