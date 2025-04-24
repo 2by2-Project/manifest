@@ -67,6 +67,7 @@
   <remove-project name="platform/external/f2fs-tools" />
   <remove-project name="platform/external/freetype" />
   <remove-project name="platform/external/jemalloc_new" />
+  <remove-project name="platform/external/minijail" />
   <remove-project name="platform/external/kotlinc" />
   <remove-project name="platform/external/kotlinx.coroutines" />
   <remove-project name="platform/external/kotlinx.serialization" />
