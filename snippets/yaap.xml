@@ -57,6 +57,9 @@
   <project path="external/freetype" name="external_freetype" remote="yaap" />
   <project path="external/htop" name="external_htop" remote="yaap" />
   <project path="external/jemalloc_new" name="external_jemalloc_new" remote="yaap" />
+  <project path="external/kotlinc" name="platform/external/kotlinc" remote="aosp" revision="401d708dc899a2c375cc92b1ecdc90905038bcdf" />
+  <project path="external/kotlinx.coroutines" name="platform/external/kotlinx.coroutines" remote="aosp" revision="e3dc1aa4a0f9f5b219e9ee552968a02d7c4dfbfd" />
+  <project path="external/kotlin-compose-compiler" name="platform/external/kotlin-compose-compiler" remote="aosp" revision="7f745dc8cb7909683882009f6792ac041fdb4a8d" />
   <project path="external/libcxx" name="external_libcxx" remote="yaap" />
   <project path="external/libdav1d" name="external_libdav1d" remote="yaap" />
   <project path="external/libfuse" name="external_libfuse" remote="yaap" />
