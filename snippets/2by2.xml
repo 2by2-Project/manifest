@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="2by2"
+           fetch="https://github.com/2by2-Project"
+           revision="refs/heads/Vanadium" />
+
+  <remote name="2by2-gitlab"
+          fetch="https://gitlab.com/2by2-Project"
+          revision="refs/heads/Vanadium" />
+
+  <!-- General -->
+  <project path="bootable/recovery" name="bootable_recovery" remote="2by2" />
+  <project path="manifest" name="manifest" remote="2by2" />
+
+  <!-- Build -->
+  <project path="build/make" name="build_make" remote="2by2" >
+   <copyfile src="core/root.mk" dest="Makefile" />
+   <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+   <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+   <linkfile src="core" dest="build/core" />
+   <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+   <linkfile src="target" dest="build/target" />
+   <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="2by2" >
+   <linkfile src="root.bp" dest="Android.bp" />
+   <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- Device -->
+  <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="2by2" />
+
+  <!-- External -->
+  <project path="external/mejiro" name="external_mejiro" remote="2by2" />
+
+  <!-- Frameworks -->
+  <project path="frameworks/base" name="frameworks_base" remote="2by2" />
+
+  <!-- Packages -->
+  <project path="packages/apps/FaceUnlock" name="crdroidandroid/android_packages_apps_FaceUnlock" revision="15.0" remote="gitlab" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="2by2" />
+  <project path="packages/apps/Settings/2byTricks" name="packages_apps_2byTricks" remote="2by2" />
+
+  <!-- Tools -->
+  <project path="tools/extract-utils-new" name="android_tools_extract-utils" remote="lineage" />
+  <!--<project path="2by2/scripts" name="2by2_scripts" remote="2by2" revision="main" />-->
+
+  <!-- Vendor -->
+  <project path="vendor/google/gms" name="vendor_google_gms" remote="2by2-gitlab" clone-depth="1" />
+  <project path="vendor/google/pixel" name="vendor_google_pixel" remote="2by2-gitlab" clone-depth="1" />
+  <project path="vendor/themes" name="vendor_themes" remote="2by2" />
+  <project path="vendor/2by2" name="vendor_2by2" remote="2by2" />
+  <!--<project path="vendor/2by2/apps" name="vendor_2by2_apps" remote="2by2" clone-depth="1" />-->
+  <project path="vendor/2by2-ota" name="vendor_2by2-ota" remote="2by2" />
+  <project path="vendor/2by2-example-keys" name="vendor_2by2-example-keys" remote="2by2" />
+  <project path="vendor/2by2-prebuilt-apps" name="vendor_2by2-prebuilt-apps" remote="2by2-gitlab" />
+
+</manifest>
