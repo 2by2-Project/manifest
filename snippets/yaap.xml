@@ -14,12 +14,12 @@
   <!-- General -->
   <project path="art" name="art" remote="yaap" />
   <project path="bootable/deprecated-ota" name="bootable_deprecated-ota" remote="yaap" />
-  <project path="bootable/recovery" name="bootable_recovery" remote="yaap" />
+  <!--<project path="bootable/recovery" name="bootable_recovery" remote="yaap" />-->
   <project path="bionic" name="bionic" remote="yaap" />
-  <project path="manifest" name="yaap/manifest" remote="github" revision="fifteen" />
+  <!--<project path="manifest" name="yaap/manifest" remote="github" revision="fifteen" />-->
 
   <!-- Build -->
-  <project path="build/make" name="build_make" remote="yaap" >
+  <!--<project path="build/make" name="build_make" remote="yaap" >
    <copyfile src="core/root.mk" dest="Makefile" />
    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -27,15 +27,15 @@
    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
    <linkfile src="target" dest="build/target" />
    <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project>-->
   <project path="build/bazel" name="build_bazel" remote="yaap" >
     <linkfile src="bazel.WORKSPACE" dest="WORKSPACE" />
     <linkfile src="bazel.BUILD" dest="BUILD" />
   </project>
-  <project path="build/soong" name="build_soong" remote="yaap" >
+  <!--<project path="build/soong" name="build_soong" remote="yaap" >
    <linkfile src="root.bp" dest="Android.bp" />
    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  </project>-->
 
   <!-- Device -->
   <project path="device/lineage/sepolicy" name="device_lineage_sepolicy" remote="yaap" />
@@ -81,7 +81,7 @@
 
   <!-- Frameworks -->
   <project path="frameworks/av" name="frameworks_av" remote="yaap" />
-  <project path="frameworks/base" name="frameworks_base" remote="yaap" />
+  <!--<project path="frameworks/base" name="frameworks_base" remote="yaap" />-->
   <project path="frameworks/libs/systemui" name="frameworks_libs_systemui" remote="yaap" />
   <project path="frameworks/minikin" name="frameworks_minikin" remote="yaap" />
   <project path="frameworks/native" name="frameworks_native" remote="yaap" />
@@ -164,14 +164,14 @@
   <project path="packages/apps/LMOFreeform" name="packages_apps_LMOFreeform" remote="yaap" />
   <project path="packages/apps/Matlog" name="packages_apps_Matlog" remote="yaap" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="yaap" />
-  <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />
+  <!--<project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="yaap" />-->
   <project sync-s="true" path="packages/apps/OpenEUICC" name="packages_apps_OpenEUICC" remote="yaap" />
   <project path="packages/apps/Panic" name="CalyxOS/platform_packages_apps_Panic" remote="github" revision="android14" />
   <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon" remote="yaap" />
   <project path="packages/apps/Ripple" name="CalyxOS/platform_packages_apps_Ripple" remote="github" revision="android15-qpr2" />
   <project path="packages/apps/Seedvault" name="packages_apps_Seedvault" remote="yaap" />
-  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />
-  <project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />
+  <!--<project path="packages/apps/Settings" name="packages_apps_Settings" remote="yaap" />-->
+  <!--<project path="packages/apps/Settings/YASP" name="packages_apps_YASP" remote="yaap" />-->
   <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="yaap" />
   <project path="packages/apps/SetupWizard" name="packages_apps_SetupWizard" remote="yaap" />
   <project path="packages/apps/SimpleDeviceConfig" name="packages_apps_SimpleDeviceConfig" remote="yaap" />
@@ -208,7 +208,7 @@
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="yaap" />
-  <project path="system/core" name="system_core" remote="yaap" />
+  <!--<project path="system/core" name="system_core" remote="yaap" />-->
   <project path="system/libvintf" name="system_libvintf" remote="yaap" />
   <project path="system/media" name="system_media" remote="yaap" />
   <project path="system/memory/libmeminfo" name="system_memory_libmeminfo" remote="yaap" />
@@ -230,12 +230,12 @@
   <project path="vendor/qcom/opensource/power" name="vendor_qcom_opensource_power" remote="yaap" />
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="yaap" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="yaap" />
-  <project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="sixteen" clone-depth="1" />
-  <project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="sixteen" clone-depth="1" />
+  <!--<project path="vendor/google/gms" name="yaosp/vendor_google_gms" remote="gitlab" revision="sixteen" clone-depth="1" />-->
+  <!--<project path="vendor/google/pixel" name="yaosp/vendor_google_pixel" remote="gitlab" revision="sixteen" clone-depth="1" />-->
   <project path="vendor/qcom/common" name="yaosp/vendor_qcom_common" remote="gitlab" revision="sixteen" />
   <project path="vendor/microg" name="vendor_microg" remote="yaap" />
-  <project path="vendor/themes" name="vendor_themes" remote="yaap" />
-  <project path="vendor/yaap" name="vendor_yaap" remote="yaap" />
-  <project path="vendor/yaap/apps" name="vendor_yaap_apps" remote="yaap" clone-depth="1" />
+  <!--<project path="vendor/themes" name="vendor_themes" remote="yaap" />-->
+  <!--<project path="vendor/yaap" name="vendor_yaap" remote="yaap" />-->
+  <!--<project path="vendor/yaap/apps" name="vendor_yaap_apps" remote="yaap" clone-depth="1" />-->
 
 </manifest>
