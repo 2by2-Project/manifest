@@ -11,6 +11,7 @@
 
   <!-- General -->
   <project path="bootable/recovery" name="bootable_recovery" remote="2by2" />
+  <project path="bionic" name="bionic" remote="2by2" />
   <project path="manifest" name="manifest" remote="2by2" />
 
   <!-- Build -->
