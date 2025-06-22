@@ -49,6 +49,8 @@
   <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android15-qpr2" clone-depth="1" >
     <linkfile src="os_pickup.bp" dest="prebuilts/calyx/chromium/Android.bp" />
   </project>
+  <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="yaap" />
+  <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="yaap" />
   <project path="external/avb" name="external_avb" remote="yaap" />
   <project path="external/bash" name="external_bash" remote="yaap" />
   <project path="external/dtc" name="external_dtc" remote="yaap" />
