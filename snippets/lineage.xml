@@ -6,7 +6,6 @@
            revision="refs/heads/lineage-22.2" />
 
   <!-- External -->
-  <project path="external/kotlinx.serialization" name="android_external_kotlinx.serialization" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="lineage" />
   <project path="external/openssh" name="android_external_openssh" remote="lineage" />
