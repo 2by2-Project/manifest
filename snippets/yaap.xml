@@ -205,7 +205,6 @@
   <project path="prebuilts/calyx/espeak-ng" name="CalyxOS/lfs_prebuilts_calyx_espeak-ng" remote="gitlab" revision="main" clone-depth="1" />
   <project path="prebuilts/calyx/talkback" name="CalyxOS/lfs_prebuilts_calyx_talkback" remote="gitlab" revision="main" clone-depth="1" />
   <project path="prebuilts/openeuicc-deps" name="prebuilts_openeuicc-deps" remote="yaap" />
-  <project path="toolchain/pgo-profiles" name="toolchain_pgo-profiles" remote="yaap" />
 
   <!-- System -->
   <project path="system/bpf" name="system_bpf" remote="yaap" />
