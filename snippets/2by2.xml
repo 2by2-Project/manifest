@@ -54,4 +54,7 @@
   <project path="vendor/2by2-ota" name="vendor_2by2-ota" remote="2by2" />
   <project path="vendor/2by2-prebuilt-apps" name="vendor_2by2-prebuilt-apps" remote="2by2-gitlab" />
 
+  <!-- Face unlock -->
+  <project path="packages/apps/FaceUnlock" name="Evolution-X/packages_apps_FaceUnlock" remote="github" revision="bka" />
+
 </manifest>
