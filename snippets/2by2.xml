@@ -29,6 +29,7 @@
   </project>
 
   <!-- External -->
+  <project path="external/bouncycastle" name="external_bouncycastle" remote="2by2" />
   <project path="external/mejiro" name="external_mejiro" remote="2by2" />
 
   <!-- Frameworks -->
