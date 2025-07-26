@@ -41,6 +41,7 @@
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="2by2" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="2by2" />
 
   <!-- Tools -->
   <project path="tools/extract-utils-new" name="android_tools_extract-utils" remote="lineage" />
