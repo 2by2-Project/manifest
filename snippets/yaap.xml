@@ -47,9 +47,7 @@
   <!-- External -->
   <project path="external/arm-optimized-routines" name="external_arm-optimized-routines" remote="yaap" />
   <project path="external/bouncycastle" name="external_bouncycastle" remote="yaap" />
-  <project path="external/calyx/chromium" name="CalyxOS/platform_external_calyx_chromium" remote="gitlab" revision="android15-qpr2" clone-depth="1" >
-    <linkfile src="os_pickup.bp" dest="prebuilts/calyx/chromium/Android.bp" />
-  </project>
+  <project path="external/vanadium" name="GrapheneOS/platform_external_vanadium" remote="gitlab" revision="16" clone-depth="1" />
   <project path="external/ant-wireless/ant_client" name="external_ant-wireless_ant_client" remote="yaap" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="yaap" />
   <project path="external/avb" name="external_avb" remote="yaap" />
@@ -103,6 +101,7 @@
   <project path="hardware/qcom-caf/sm8150/media" name="hardware_qcom-caf_sm8150_media" remote="yaap" />
   <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="yaap" />
   <project path="hardware/qcom-caf/sm8650/audio/agm" name="vendor_qcom_opensource_agm-sm8650" remote="yaap" />
+  <project path="hardware/qcom-caf/sm8650/audio/graphservices" name="vendor_qcom_opensource_audioreach-graphservices-sm8650" remote="yaap" />
   <project path="hardware/qcom-caf/sm8650/audio/pal" name="vendor_qcom_opensource_arpal-lx-sm8650" remote="yaap" />
   <project path="hardware/qcom-caf/sm8650/audio/primary-hal" name="hardware_qcom_audio-ar-sm8650" remote="yaap" />
   <project path="hardware/qcom-caf/sm8650/dataipa" name="vendor_qcom_opensource_dataipa-sm8650" remote="yaap" />
@@ -202,8 +201,6 @@
   <project path="packages/services/Telephony" name="packages_services_Telephony" remote="yaap" />
 
   <!-- Prebuilts -->
-  <project path="prebuilts/calyx/chromium/arm64" name="CalyxOS/lfs_prebuilts_calyx_chromium_arm64" remote="gitlab" revision="main" clone-depth="1" />
-  <project path="prebuilts/calyx/chromium/x64" name="CalyxOS/lfs_prebuilts_calyx_chromium_x64" remote="gitlab" revision="android15-qpr2" clone-depth="1" />
   <project path="prebuilts/calyx/espeak-ng" name="CalyxOS/lfs_prebuilts_calyx_espeak-ng" remote="gitlab" revision="main" clone-depth="1" />
   <project path="prebuilts/calyx/talkback" name="CalyxOS/lfs_prebuilts_calyx_talkback" remote="gitlab" revision="main" clone-depth="1" />
   <project path="prebuilts/openeuicc-deps" name="prebuilts_openeuicc-deps" remote="yaap" />
