@@ -76,6 +76,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="yaap" />
   <project path="external/vim" name="external_vim" remote="yaap" />
   <project path="external/vixl" name="external_vixl" remote="yaap" />
+  <project path="external/zlib" name="external_zlib-ng" remote="yaap" />
   <project path="external/zstd" name="external_zstd" remote="yaap" />
 
   <!-- Frameworks -->
@@ -147,6 +148,11 @@
 
   <!--Kernel Config-->
   <project path="kernel/configs" name="kernel_configs" remote="yaap" />
+
+  <!-- Lindroid -->
+  <project path="libhybris" name="libhybris" remote="yaap" />
+  <project path="external/lxc" name="external_lxc" remote="yaap" />
+  <project path="vendor/lindroid" name="vendor_lindroid" remote="yaap" />
 
   <!-- Packages -->
   <project path="packages/apps/Aperture" name="packages_apps_Aperture" remote="yaap" />
