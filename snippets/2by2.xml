@@ -38,6 +38,7 @@
   <project path="packages/apps/OpenDelta" name="packages_apps_OpenDelta" remote="2by2" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="2by2" />
   <project path="packages/apps/Settings/2byTricks" name="packages_apps_2byTricks" remote="2by2" />
+  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="2by2" />
 
   <!-- System -->
   <project path="system/core" name="system_core" remote="2by2" />

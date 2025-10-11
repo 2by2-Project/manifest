@@ -191,7 +191,7 @@
   <project path="packages/modules/Nfc" name="packages_modules_Nfc" remote="yaap" />
   <project path="packages/modules/Permission" name="packages_modules_Permission" remote="yaap" />
   <project path="packages/modules/StatsD" name="packages_modules_StatsD" remote="yaap" />
-  <project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />
+  <!--<project path="packages/modules/Wifi" name="packages_modules_Wifi" remote="yaap" />-->
   <project path="packages/providers/BlockedNumberProvider" name="packages_providers_BlockedNumberProvider" remote="yaap" />
   <project path="packages/providers/BookmarkProvider" name="packages_providers_BookmarkProvider" remote="yaap" />
   <project path="packages/providers/CalendarProvider" name="packages_providers_CalendarProvider" remote="yaap" />
